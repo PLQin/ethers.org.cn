@@ -1,0 +1,24 @@
+.M-nav {
+  display: flex;
+  background-color: #e6f7ff;
+  padding: 0 30px;
+  width: 300px;
+  justify-content: space-between;
+  user-select: none;
+  margin: 0 auto;
+
+  .tab {
+    flex: 1;
+    height: 80px;
+    line-height: 80px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    padding: 0 30px;
+
+    &.current {
+      background-color: #1890ff;
+      color: #fff;
+    }
+  }
+}
