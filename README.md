@@ -15,4 +15,4 @@
   </a>
 </p>
 
-> React+NextJs的基本架构
+> React+NextJs
